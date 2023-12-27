@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Revision To Do List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <div class="title">
+                <h1>To Do List</h1>
+                <img src="../../2nd to do list/images/icon.png" alt="">
+            </div>
+            <div class="task">
+                <div class="search">
+                    <input type="text" placeholder="Type a Task">
+                    <button>ADD</button>
+                </div>
+                <div class="taskList">
+                    <ul>
+                        <li>
+                            <img src="../../2nd to do list/images/unchecked.png" class="unchecked" alt="">
+                            Learn Javascript
+                            <span class="cross"></span>
+                        </li>
+                        <li>
+                            <img src="../../2nd to do list/images/unchecked.png" class="unchecked" alt="">
+                            Learn Javascript
+                            <span class="cross"></span>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        const test = document.querySelector(".cross").innerHTML = "\u00d7"
+        document.write(test)
+        // console.log(test)
+    </script>
+</html>
